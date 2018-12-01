@@ -4,7 +4,7 @@ html {
 
 body {
     color: #444;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 400;
     font-size: 1.25em;
 }
@@ -12,7 +12,7 @@ body {
 .header {
     margin: auto;
     color: white;
-    background-image: linear-gradient( 135deg, #fff 0%, #970747 100%);
+    background-image: linear-gradient( 135deg, #D00D1E 0%, #970747 100%);
 }
 
 .center {
@@ -53,6 +53,20 @@ aside {
 .about {
     font-size: 1.25em;
     text-align: justify;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    flex: 50%;
+}
+
+/* Clear floats after the columns */
+.row{
+    display: flex;
 }
 
 @media (max-width: 1200px) {
