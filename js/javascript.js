@@ -29,5 +29,5 @@ new fullpage('#fullpage', {
   responsiveSlides: true,
   sectionSelector: '.section',
   slideSelector: '.slide',
-  sectionsColor: ['#CE9FFC', '#fff', '#efefef', '#fff', '#efefef', '#fff',]
+  sectionsColor: ['#C33C33', '#fff', '#efefef', '#fff', '#efefef', '#fff',]
 });
