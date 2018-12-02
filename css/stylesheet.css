@@ -4,9 +4,16 @@ html {
 
 body {
     color: #444;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, sans-serif;
     font-weight: 400;
     font-size: 1.25em;
+}
+
+.logo {
+
+    font-family: "Courier New", Courier, monospace;
+    font-size: 2.0em;
+
 }
 
 .header {
