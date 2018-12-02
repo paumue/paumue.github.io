@@ -12,7 +12,7 @@ body {
 .header {
     margin: auto;
     color: white;
-    background-image: linear-gradient( 135deg, #D00D1E 0%, #970747 100%);
+    background-image: linear-gradient( 135deg, #C60E19 0%, #8E0810 100%);
 }
 
 .center {
@@ -40,6 +40,26 @@ h2 {
 h3 {
     font-size: 1.5em;
     font-weight: 300;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+img {
+    width: 40%;
+    height: auto;
+}
+.caption {
+    display: block;
+}
+
+article {
+    -webkit-columns: 2 200px;
+    -moz-columns: 2 200px;
+    columns: 2 200px;
 }
 
 a:not(:hover) {
@@ -129,12 +149,12 @@ aside {
 }
 
 .fp-next {
-    border-color: transparent transparent transparent #970747 !important;
+    border-color: transparent transparent transparent #8E0810 !important;
     border-width: 19.25px 0px 19.25px 17px !important;
 }
 
 .fp-prev {
-    border-color: transparent #970747 transparent transparent !important;
+    border-color: transparent #8E0810 transparent transparent !important;
     border-width: 19.25px 17px 19.25px 0 !important;
 }
 
@@ -229,7 +249,7 @@ aside {
     bottom: 0;
     height: 2px;
     width: 0;
-    background: linear-gradient( 135deg, #D00D1E 0%,  #970747 100%);
+    background: linear-gradient( 135deg, #C60E19 0%,  #8E0810 100%);
     -webkit-transition: width .2s ease;
     -moz-transition: width .2s ease;
     -o-transition: width .2s ease;
@@ -238,7 +258,7 @@ aside {
 
 .nav-link span a:hover:before {
     width: 100%;
-    background: linear-gradient( 135deg, #D00D1E 0%,  #970747 100%);
+    background: linear-gradient( 135deg, #C60E19 0%,  #8E0810 100%);
     -webkit-transition: width .2s ease;
     -moz-transition: width .2s ease;
     -o-transition: width .2s ease;
