@@ -49,25 +49,10 @@ h3 {
     font-weight: 300;
 }
 
-div.item {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-}
-img {
-    width: 40%;
-    height: auto;
-}
 .caption {
     display: block;
 }
 
-article {
-    -webkit-columns: 2 200px;
-    -moz-columns: 2 200px;
-    columns: 2 200px;
-}
 
 a:not(:hover) {
     text-decoration: none;
