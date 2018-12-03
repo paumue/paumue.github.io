@@ -54,6 +54,11 @@ h3 {
     display: block;
 }
 
+.scrollable {
+    max-height: 65vh;
+    overflow-y: scroll;
+}
+
 
 a:not(:hover) {
     text-decoration: none;
