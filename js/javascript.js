@@ -1,4 +1,4 @@
-const normalScrollElements = (window.innerWidth < 1150) ? '.scrollable-element' : null;
+const normalScrollElements = (window.innerWidth < 1150) ? '.scrollable' : null;
 const paddingTop = (window.innerWidth < 992) ? '1em' : '3em';
 
 new fullpage('#fullpage', {
