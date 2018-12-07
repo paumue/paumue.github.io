@@ -152,12 +152,12 @@ aside {
 }
 
 .fp-next {
-    border-color: transparent transparent transparent #8E0810 !important;
+    border-color: transparent transparent transparent #C60E19 !important;
     border-width: 19.25px 0px 19.25px 17px !important;
 }
 
 .fp-prev {
-    border-color: transparent #8E0810 transparent transparent !important;
+    border-color: transparent #C60E19 transparent transparent !important;
     border-width: 19.25px 17px 19.25px 0 !important;
 }
 
