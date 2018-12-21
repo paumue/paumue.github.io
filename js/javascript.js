@@ -6,7 +6,7 @@ new fullpage('#fullpage', {
   scrollHorizontally: true,
   css3: true,
   scrollingSpeed: 700,
-  fitToSection: true,
+  fitToSection:true,
   fitToSectionDelay: 1000,
   scrollBar: false,
   easing: 'easeInOut',
