@@ -9,12 +9,13 @@ body {
     font-size: 1.25em;
 }
 
-
 .header {
     margin: auto;
     color: white;
     background-image: #C60E19;
 }
+
+
 
 .center {
     position: absolute;
@@ -285,12 +286,12 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  display: inline-block;
+    margin: 0 auto;
+  display: block;
   height: 50px;
   width:18rem;
   padding: 0 0 0 5.1rem;
   color: #000;
-  text-align: left;
   font-size: 1.15rem;
   font-weight: 600;
   line-height: 50px;
