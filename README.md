@@ -1,2 +1,2 @@
 # paumue.github.io
-Testing and portfolio website
+Portfolio website - just html.
